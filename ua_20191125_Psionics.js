@@ -108,11 +108,10 @@ AddSubClass("fighter", "psychic warrior", {
 	}
 });
 // Add a subclass for the Rogue
-AddSubClass("rogue", "soulknife", {
-	regExpSearch : /^(?=.*(rogue|miscreant))(?=.*soulknife).*$/i,
+AddSubClass("rogue", "rogue-soul knife", {
+	regExpSearch : /^(?=.*soul)(?=.*knife).*$/i,
 	subname : "Soulknife",
 	source : ["UA:Psi", 2],
-	fullname : "Soulknife",
 	abilitySave : 4,
 	features : {
 		"subclassfeature3" : {
